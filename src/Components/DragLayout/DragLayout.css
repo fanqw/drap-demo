@@ -1,0 +1,14 @@
+@import '~react-grid-layout/css/styles.css';
+@import '~react-resizable/css/styles.css';
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  overflow: scroll;
+  background: #fff;
+}
+
+.layouts {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,47 @@
+.dragPanel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  color: #333;
+  font-size: 60px;
+  font-family: fantasy;
+  background: #dbe8ee;
+  border: 1px solid #999;
+}
+
+.dropping {
+  border-style: dashed;
+  cursor: all-scroll;
+}
+
+.action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.actionItem {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.actionItem :hover {
+  background: red;
+  cursor: pointer;
+}
+
+.active {
+  box-shadow: inset 0 0 7px 0 #666;
+}
